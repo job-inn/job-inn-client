@@ -1,0 +1,97 @@
+[translations]
+other = "Tłumaczenia"
+
+[about]
+other = "O firmie"
+
+[standards]
+other = "Nasze standardy"
+
+[contact]
+other = "Kontakt"
+
+[for_worker]
+other = "Dla kandydata"
+
+[claim]
+other = "Profesjonalny i sprawdzony partner dla firm produkcyjnych."
+
+[contact_us]
+other = "Skontaktuj się z nami!"
+
+
+[recrutation]
+other = "Rekrutacja i Koordynacja"
+
+[office]
+other = "Księgowość"
+
+[legalisation]
+other = "Kadry"
+
+[collaboration]
+other = "Współpraca"
+
+[form]
+other = "Formularz"
+
+[name]
+other = "Imię i nazwisko"
+
+[email]
+other = "Adres e-mail"
+
+[company]
+other = "Nazwa firmy"
+
+[tel]
+other = "tel."
+
+[phone]
+other = "Numer telefonu"
+
+[message]
+other = "Wiadomość"
+
+[send]
+other = "Wyślij wiadomość"
+
+# Standards
+
+[standard1]
+other = "Zrozumienie i dostosowanie się do specyfiki produkcji oraz organizacji pracy klienta."
+
+[standard2]
+other = "Zapewnienie wszelkiej dokumentacji medycznej, szkoleniowej oraz legalizacyjnej personelu przez cały okres współpracy z klientem."
+
+[standard3]
+other = "Utrzymywanie wysokiej wydajności pracy naszego personelu we współpracy z kierownictwem produkcji."
+
+[standard4]
+other = "Rzetelne wywiązywanie się z rekrutacji zgodnie z wytycznymi klienta."
+
+[standard5]
+other = "Fachowa koordynacja personelu oraz stały kontakt dedykowanego koordynatorów z kierownictwem produkcji klienta."
+
+[standard6]
+other = "Organizacja zakwaterowania, dojazdu, odzieży roboczej oraz narzędzi pracy wedle wytycznych klienta."
+
+# Form Thankyou
+
+[thankyou]
+other = "Dziękujemy!"
+
+
+[thankyou_message]
+other = "Dziękujemy za kontakt z JOB INN sp. z o.o. Skontaktujemy się z Państwem w najbliższym czasie."
+
+[thankyou_message2]
+other = "Z wyrazami szacunku, Zespół JOB INN Sp. z o.o."
+
+[back]
+other = "Wróć na stronę główną"
+
+[required]
+other = "Pole wymagane"
+
+

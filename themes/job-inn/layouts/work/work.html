@@ -1,0 +1,29 @@
+{{ define "main" }}
+
+<section id="worker">
+
+	<div class="tc mw8 pv4 center">
+
+		<h1 class="f1 ttu sans">{{ i18n "for_worker" }}</h1>
+
+		<div class="pa2 pb6">
+			<ul class="mw8 list icons"> 
+                <li class="grow dib ph3 pv2 br4 hover-bg-jobyellow">
+                    <a href="https://m.facebook.com/100074250146449/" target="_blank"><img src="{{ .Site.BaseURL }}images/facebook.svg" alt=""></a>
+                </li> 
+                <li class="grow dib ph3 pv2 br4 hover-bg-jobyellow">
+                    <a href="https://www.instagram.com/job_inn.poland/" target="_blank"><img src="{{ .Site.BaseURL }}images/instagram.svg" alt=""></a>
+                </li> 
+                <li class="grow dib ph3 pv3 br4 hover-bg-jobyellow">
+                    <a href="https://invite.viber.com/?g2=AQA4b3hj1223cE3xmlJD69HlyVc4hj2vhPqFR1uOTKVYFu6%2FgYaQ58kqt%2F8mdzwv&lang=pl" target="_blank"><img src="{{ .Site.BaseURL }}images/viber.svg" alt=""></a>
+                </li> 
+			</ul>
+		</div>
+
+
+		{{ .Content }}
+	</div>
+
+</section>
+
+{{ end }}

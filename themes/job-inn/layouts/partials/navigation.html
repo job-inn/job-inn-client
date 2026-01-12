@@ -1,0 +1,56 @@
+<section class="shadow-1">
+    <!-- <section class="bg-black flex flex-wrap items-center"> -->
+    <!--     <div id="google_translate_element" class="tc center bg-black pa2"></div> -->
+    <!-- </section> -->
+    <nav class="bg-white pv2 sans mw8 center">
+        <!-- mobile logo -->
+        <!-- <div class="logo grow">
+            <a href="{{ .Site.BaseURL }}" class=""><img src="{{ .Site.BaseURL }}images/logo_job_inn.png" alt=""></a> 
+        </div> -->
+        <!-- desktop logo -->
+        <div class="logo grow">
+            <a href="{{ .Site.BaseURL }}" class=""><img src="{{ .Site.BaseURL }}images/logo_job_inn.png" alt=""></a> 
+        </div>
+
+        <div id="menu-button" class="pa3 ml3 pointer tr">
+            <img src="{{ "images/menu.png" | absURL}}" alt="" class="">
+        </div>
+
+        <div class="tr nav hide pt2 pb2">
+            <ul class="black list">
+                <li class="navlink db-ns db-m dib-l"><a href="{{ relLangURL "#firma" }}" class="pv2 ph3 db b f4 ttu link black bg-white hover-bg-jobyellow">{{ i18n "about" }}</a></li>
+                <li class="navlink db-ns db-m dib-l"><a href="{{ relLangURL "#standardy" }}" class="pv2 ph3 db b f4 ttu link black bg-white hover-bg-jobyellow">{{ i18n "standards" }}</a></li>
+                <li class="navlink db-ns db-m dib-l"><a href="{{ relLangURL "#kontakt" }}" class="pv2 ph3 db b f4 ttu link black bg-white hover-bg-jobyellow">{{ i18n "contact" }}</a></li>
+                <li class="navlink db-ns db-m dib-l"><a href="{{ "work" | absLangURL }}" class="pv2 ph3 db b f4 ttu link black bg-white hover-bg-jobyellow">{{ i18n "for_worker" }}</a></li>
+                <li class="navlink db-ns db-m dib-l black link ttu">
+                  {{ if .IsTranslated }}
+                    {{ range .Translations }}
+                        <a href="{{ .Permalink }}" class="b bg-jobyellow hover-bg-black black hover-white link pa2 f4">{{ .Lang }} {{ if .IsPage }} {{ end }}</a>
+                    {{ end}}
+                  {{ end }}
+                </li>
+ 
+            </ul>
+
+        </div>
+ 
+    </nav>
+</section>
+
+ <!-- nav script -->
+ <script src="{{ .Site.BaseURL }}js/nav.js"></script>
+
+ <!-- <script> -->
+ <!--    function googleTranslateElementInit() { -->
+
+ <!--        new google.translate.TranslateElement( -->
+ <!--            { -->
+ <!--                pageLanguage: 'pl', -->
+ <!--                includedLanguages: 'de,ro,uk,bg,be,sk', -->
+ <!--                <!-1- layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL -1-> -->
+ <!--                layout: google.translate.TranslateElement.InlineLayout.SIMPLE -->
+ <!--            }, -->
+ <!--            "google_translate_element" -->
+ <!--        ); -->
+ <!--    } -->
+<!-- </script> -->

@@ -1,0 +1,94 @@
+[translations]
+other = "Translations"
+
+[about]
+other = "About"
+
+[standards]
+other = "Our standards"
+
+[contact]
+other = "Contact"
+
+[for_worker]
+other = "For the candidate"
+
+[claim]
+other = "Professional and reliable partner for manufacturing companies."
+
+[contact_us]
+other = "Contact us"
+
+
+[recrutation]
+other = "Recruitment and Coordination"
+
+[office]
+other = "Accounting"
+
+[legalisation]
+other = "HR"
+
+[collaboration]
+other = "Cooperation"
+
+[form]
+other = "Contact form"
+
+[name]
+other = "Name and surname"
+
+[email]
+other = "E-mail"
+
+[company]
+other = "Company name"
+
+[tel]
+other = "tel."
+
+[phone]
+other = "Phone number"
+
+[message]
+other = "Message"
+
+[send]
+other = "Send a message"
+
+# Standards
+
+[standard1]
+other = "Understanding and adapting to the customer's specific production and work organization."
+
+[standard2]
+other = "Providing all medical, training and legalization documentation of personnel throughout the period of cooperation with the client."
+
+[standard3]
+other = "Maintaining the high productivity of our staff in cooperation with production management."
+
+[standard4]
+other = "Reliably carry out recruitment in accordance with the client's guidelines."
+
+[standard5]
+other = "Professionally coordinating staff and keeping the dedicated coordinator in constant contact with the client's production management."
+
+[standard6]
+other = "Arranging accommodation, travel, work clothes and work tools according to the client's guidelines"
+
+# Form Thankyou
+
+[thankyou]
+other = "Thank you!"
+
+[thankyou_message]
+other = "Thank you for applying. We will contact you shortly." 
+
+[thankyou_message2]
+other = "Best Regards, JOB INN Sp. z o. o."
+
+[back]
+other = "Go back to the home page"
+
+[required]
+other = "Required field"

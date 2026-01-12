@@ -1,0 +1,23 @@
+baseURL = 'http://example.org/'
+languageCode = 'pl-PL'
+title = 'JOB-INN'
+theme = 'job-inn'
+
+
+defaultContentLanguage = "pl"
+defaultContentLanguageInSubdir= false
+disableLanguages = [ ]
+
+[Languages]
+
+[Languages.pl]
+languageName = "Polski"
+weight = 1
+
+[Languages.ru]
+languageName = "Русский"
+weight = 2
+
+[Languages.en]
+languageName = "English"
+weight = 3
