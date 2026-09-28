@@ -1,15 +1,26 @@
 <!DOCTYPE html>
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-EN{{ end }}">
+
     {{- partial "head.html" . -}}
+
     <body>
+
         <script>
             AOS.init();
         </script>
+
         {{ partial "navigation.html" . }}
+
         <div>
-        {{- block "main" . }}
-        {{- end }}
+            {{- block "main" . }}
+            {{- end }}
         </div>
+
         {{- partial "footer.html" . -}}
+
+        {{ partial "cookie-consent.html" . }}
+
+        <script src="/js/cookie-consent.js"></script>
+
     </body>
 </html>
