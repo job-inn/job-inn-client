@@ -1,15 +1,9 @@
-<!DOCTYPE html>
-<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-EN{{ end }}">
-    {{- partial "head.html" . -}}
-    <body>
-        <script>
-            AOS.init();
-        </script>
-        {{ partial "navigation.html" . }}
-        <div> 
-        {{- block "main" . }}
-        {{- end }}
-        </div>
-        {{- partial "footer.html" . -}}
-    </body>
-</html>
+{{ define "main" }}
+
+<main class="mw8 center ph4 pv5 sans">
+    <article class="lh-copy">
+        {{ .Content }}
+    </article>
+</main>
+
+{{ end }}
