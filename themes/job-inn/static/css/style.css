@@ -233,5 +233,46 @@ textarea:hover {
 .shadow-m {
     box-shadow: -2px 18px 54px -4px rgba(0,0,0,0.37);
     -webkit-box-shadow: -2px 18px 54px -4px rgba(0,0,0,0.37);
+	.privacy-policy {
+    font-size: 1.05rem;
+    line-height: 1.7;
+}
+
+.privacy-policy h1,
+.privacy-policy h2,
+.privacy-policy h3 {
+    color: #ffe72c;
+    font-weight: 700;
+}
+
+.privacy-policy h1 {
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+}
+
+.privacy-policy h2 {
+    font-size: 1.5rem;
+    margin-top: 2.2rem;
+    margin-bottom: 1rem;
+}
+
+.privacy-policy h3 {
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+}
+
+.privacy-policy p,
+.privacy-policy li {
+    color: #f2f2f2;
+}
+
+.privacy-policy a {
+    color: #ffe72c;
+    text-decoration: underline;
+}
+
+.privacy-policy ul {
+    padding-left: 1.5rem;
+}
     -moz-box-shadow: -2px 18px 54px -4px rgba(0,0,0,0.37);
 }
