@@ -1,0 +1,162 @@
+<!-- COOKIE CONSENT -->
+<div id="cookie-banner" class="cookie-banner" hidden>
+  <div class="cookie-banner__content">
+    <div class="cookie-banner__text">
+      <h2>Dbamy o Twoją prywatność</h2>
+
+      <p>
+        Używamy niezbędnych plików cookies, aby strona działała prawidłowo.
+        Za Twoją zgodą możemy również korzystać z cookies analitycznych,
+        marketingowych oraz technologii zewnętrznych, które pomagają nam
+        analizować ruch, mierzyć skuteczność reklam i wyświetlać osadzone treści.
+      </p>
+
+      <p>
+        Możesz zaakceptować wszystkie opcjonalne cookies, odrzucić je
+        albo samodzielnie wybrać ustawienia. Zgodę możesz w każdej chwili zmienić.
+      </p>
+
+      <p class="cookie-banner__privacy">
+        Więcej informacji znajdziesz w
+        <a href="/polityka-prywatnosci/">Polityce prywatności</a>.
+      </p>
+    </div>
+
+    <div class="cookie-banner__buttons">
+      <button type="button" id="cookie-reject-all" class="cookie-btn cookie-btn--secondary">
+        Odrzucam opcjonalne
+      </button>
+
+      <button type="button" id="cookie-settings-open" class="cookie-btn cookie-btn--secondary">
+        Ustawienia
+      </button>
+
+      <button type="button" id="cookie-accept-all" class="cookie-btn cookie-btn--primary">
+        Akceptuję wszystkie
+      </button>
+    </div>
+  </div>
+</div>
+
+
+<!-- COOKIE SETTINGS MODAL -->
+<div id="cookie-modal" class="cookie-modal" hidden>
+  <div class="cookie-modal__overlay" data-cookie-close></div>
+
+  <div
+    class="cookie-modal__dialog"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="cookie-modal-title"
+  >
+    <div class="cookie-modal__header">
+      <h2 id="cookie-modal-title">Ustawienia plików cookies</h2>
+
+      <button
+        type="button"
+        class="cookie-modal__close"
+        data-cookie-close
+        aria-label="Zamknij ustawienia cookies"
+      >
+        ×
+      </button>
+    </div>
+
+    <div class="cookie-modal__body">
+      <p>
+        Możesz zdecydować, na jakie rodzaje plików cookies i podobnych technologii
+        wyrażasz zgodę. Cookies niezbędne są zawsze aktywne, ponieważ bez nich
+        podstawowe funkcje strony mogą nie działać prawidłowo.
+      </p>
+
+      <!-- NIEZBĘDNE -->
+      <div class="cookie-category">
+        <div class="cookie-category__header">
+          <div>
+            <h3>Niezbędne</h3>
+            <p>
+              Są potrzebne do prawidłowego i bezpiecznego działania strony,
+              zapamiętania ustawień prywatności oraz realizacji funkcji
+              wyraźnie żądanych przez użytkownika.
+            </p>
+          </div>
+
+          <label class="cookie-switch cookie-switch--disabled">
+            <input type="checkbox" checked disabled>
+            <span class="cookie-switch__slider"></span>
+          </label>
+        </div>
+
+        <span class="cookie-required">Zawsze aktywne</span>
+      </div>
+
+      <!-- ANALITYCZNE -->
+      <div class="cookie-category">
+        <div class="cookie-category__header">
+          <div>
+            <h3>Analityczne</h3>
+            <p>
+              Pomagają nam zrozumieć, w jaki sposób użytkownicy korzystają ze strony,
+              które podstrony są najczęściej odwiedzane i jak możemy poprawić
+              działanie serwisu. W tej kategorii może być używany Google Analytics.
+            </p>
+          </div>
+
+          <label class="cookie-switch">
+            <input type="checkbox" id="cookie-analytics">
+            <span class="cookie-switch__slider"></span>
+          </label>
+        </div>
+      </div>
+
+      <!-- MARKETINGOWE -->
+      <div class="cookie-category">
+        <div class="cookie-category__header">
+          <div>
+            <h3>Marketingowe</h3>
+            <p>
+              Umożliwiają mierzenie skuteczności kampanii reklamowych,
+              remarketing oraz dopasowywanie reklam. W tej kategorii mogą być
+              używane m.in. Google Ads oraz Meta Pixel.
+            </p>
+          </div>
+
+          <label class="cookie-switch">
+            <input type="checkbox" id="cookie-marketing">
+            <span class="cookie-switch__slider"></span>
+          </label>
+        </div>
+      </div>
+
+      <!-- ZEWNĘTRZNE -->
+      <div class="cookie-category">
+        <div class="cookie-category__header">
+          <div>
+            <h3>Treści zewnętrzne</h3>
+            <p>
+              Pozwalają na wczytywanie treści z usług zewnętrznych,
+              takich jak mapy, filmy lub inne osadzone elementy.
+              Ich uruchomienie może powodować przekazywanie danych
+              zewnętrznym dostawcom.
+            </p>
+          </div>
+
+          <label class="cookie-switch">
+            <input type="checkbox" id="cookie-external">
+            <span class="cookie-switch__slider"></span>
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <div class="cookie-modal__footer">
+      <button type="button" id="cookie-modal-reject" class="cookie-btn cookie-btn--secondary">
+        Odrzucam opcjonalne
+      </button>
+
+      <button type="button" id="cookie-save" class="cookie-btn cookie-btn--primary">
+        Zapisz ustawienia
+      </button>
+    </div>
+  </div>
+</div>
