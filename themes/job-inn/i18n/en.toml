@@ -92,3 +92,9 @@ other = "Go back to the home page"
 
 [required]
 other = "Required field"
+
+[recruitment]
+other = "RECRUITMENT"
+
+[coordination]
+other = "COORDINATION"
