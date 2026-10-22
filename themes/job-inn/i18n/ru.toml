@@ -92,3 +92,9 @@ other = "Вернуться на главную страницу"
 
 [required]
 other = "Обязательное поле"
+
+[recruitment]
+other = "РЕКРУТИНГ"
+
+[coordination]
+other = "КООРДИНАЦИЯ"
