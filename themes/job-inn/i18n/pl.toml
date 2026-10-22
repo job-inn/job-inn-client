@@ -94,4 +94,8 @@ other = "Wróć na stronę główną"
 [required]
 other = "Pole wymagane"
 
+[recruitment]
+other = "REKRUTACJA"
 
+[coordination]
+other = "KOORDYNACJA"
